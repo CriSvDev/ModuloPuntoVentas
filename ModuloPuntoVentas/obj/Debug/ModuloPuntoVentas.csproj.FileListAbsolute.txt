@@ -3,9 +3,9 @@ C:\Users\LENOVO\source\repos\ModuloPuntoVentas\ModuloPuntoVentas\bin\Debug\Modul
 C:\Users\LENOVO\source\repos\ModuloPuntoVentas\ModuloPuntoVentas\bin\Debug\ModuloPuntoVentas.pdb
 C:\Users\LENOVO\source\repos\ModuloPuntoVentas\ModuloPuntoVentas\obj\Debug\ModuloPuntoVentas.csproj.AssemblyReference.cache
 C:\Users\LENOVO\source\repos\ModuloPuntoVentas\ModuloPuntoVentas\obj\Debug\ModuloPuntoVentas.csproj.SuggestedBindingRedirects.cache
-C:\Users\LENOVO\source\repos\ModuloPuntoVentas\ModuloPuntoVentas\obj\Debug\ModuloPuntoVentas.Form1.resources
 C:\Users\LENOVO\source\repos\ModuloPuntoVentas\ModuloPuntoVentas\obj\Debug\ModuloPuntoVentas.Properties.Resources.resources
 C:\Users\LENOVO\source\repos\ModuloPuntoVentas\ModuloPuntoVentas\obj\Debug\ModuloPuntoVentas.csproj.GenerateResource.cache
 C:\Users\LENOVO\source\repos\ModuloPuntoVentas\ModuloPuntoVentas\obj\Debug\ModuloPuntoVentas.csproj.CoreCompileInputs.cache
 C:\Users\LENOVO\source\repos\ModuloPuntoVentas\ModuloPuntoVentas\obj\Debug\ModuloPuntoVentas.exe
 C:\Users\LENOVO\source\repos\ModuloPuntoVentas\ModuloPuntoVentas\obj\Debug\ModuloPuntoVentas.pdb
+C:\Users\LENOVO\source\repos\ModuloPuntoVentas\ModuloPuntoVentas\obj\Debug\ModuloPuntoVentas.frmLogeo.resources

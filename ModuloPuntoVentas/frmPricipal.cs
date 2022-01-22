@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ModuloPuntoVentas
 {
-    public partial class Form1 : Form
+    public partial class frmPricipal : Form
     {
-        public Form1()
+        public frmPricipal()
         {
             InitializeComponent();
         }

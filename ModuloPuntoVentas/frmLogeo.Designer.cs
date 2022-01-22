@@ -1,6 +1,6 @@
 ﻿namespace ModuloPuntoVentas
 {
-    partial class Form1
+    partial class frmLogeo
     {
         /// <summary>
         /// Required designer variable.
@@ -28,15 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.btnIngresar = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.txtConstraseña = new System.Windows.Forms.TextBox();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.lblContra = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pnImgLogo = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.txtContrasena = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,6 +54,7 @@
             this.btnIngresar.TabIndex = 0;
             this.btnIngresar.Text = "Ingresar";
             this.btnIngresar.UseVisualStyleBackColor = false;
+            this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click_1);
             // 
             // btnSalir
             // 
@@ -74,15 +77,6 @@
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(257, 32);
             this.txtUsuario.TabIndex = 2;
-            // 
-            // txtConstraseña
-            // 
-            this.txtConstraseña.Location = new System.Drawing.Point(285, 235);
-            this.txtConstraseña.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtConstraseña.Multiline = true;
-            this.txtConstraseña.Name = "txtConstraseña";
-            this.txtConstraseña.Size = new System.Drawing.Size(257, 32);
-            this.txtConstraseña.TabIndex = 3;
             // 
             // lblUsuario
             // 
@@ -136,22 +130,38 @@
             this.label1.TabIndex = 5;
             this.label1.Text = "Dorian Tech EIRL";
             // 
-            // Form1
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // txtContrasena
+            // 
+            this.txtContrasena.Location = new System.Drawing.Point(285, 235);
+            this.txtContrasena.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtContrasena.Multiline = true;
+            this.txtContrasena.Name = "txtContrasena";
+            this.txtContrasena.PasswordChar = '*';
+            this.txtContrasena.Size = new System.Drawing.Size(257, 32);
+            this.txtContrasena.TabIndex = 7;
+            // 
+            // frmLogeo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(747, 457);
+            this.Controls.Add(this.txtContrasena);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblContra);
             this.Controls.Add(this.lblUsuario);
-            this.Controls.Add(this.txtConstraseña);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnIngresar);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Name = "Form1";
-            this.Text = "s";
+            this.Name = "frmLogeo";
+            this.Text = "Sistema de Punto de Ventas";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -164,12 +174,13 @@
         private System.Windows.Forms.Button btnIngresar;
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.TextBox txtUsuario;
-        private System.Windows.Forms.TextBox txtConstraseña;
         private System.Windows.Forms.Label lblUsuario;
         private System.Windows.Forms.Label lblContra;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel pnImgLogo;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.TextBox txtContrasena;
     }
 }
 
